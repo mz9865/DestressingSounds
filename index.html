@@ -8,12 +8,17 @@
         <link rel="stylesheet" href="nav-bar.css">
         <link rel="stylesheet" href="background.css">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+        <script src="controller.js"></script>
     </head>
 
     <body>
-    <ul>
-        <li><a>Home</a></li>
-    </ul>
+        <ul>
+            <li><a>Destress Sounds</a></li>
+        </ul>
 
+        <div data-ng-app="destress" data-ng-init="name='Mason'" data-ng-controller="destressController">
+            <p>Name: <input type="text" data-ng-model="name"></input></p>
+            <p>{{name}}</p>
+        </div>
     </body>
 </html>
