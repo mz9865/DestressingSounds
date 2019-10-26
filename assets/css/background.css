@@ -1,9 +1,9 @@
 #wrapper {
     position: relative;
-    display: flex;
+    display: grid;
 }
 
-#wrapper:after {
+#wrapper:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -20,6 +20,10 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+#flexbox-wrapper {
+    display: flex;
 }
 
 #angular {

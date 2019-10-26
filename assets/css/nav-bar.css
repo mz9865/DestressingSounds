@@ -10,13 +10,13 @@ ul {
     overflow: hidden;
     background-color: #2D2E38;
     font-size: 36px;
+    z-index: -1;
+    display: block;
+    flex: 100;
 }
 
 li {
     float: top;
-}
-
-li a {
     display: block;
     color: white;
     text-align: center;

@@ -14,22 +14,24 @@
     </head>
 
     <body>
-        <ul>
-            <li><a>Destress Sounds</a></li>
-        </ul>
-
         <div id="wrapper">
-            <div class="icon-wrapper">
-                <i class="fa fa-chevron-left"></i>
-            </div>
+            <ul>
+                <li>Destress Sounds</li>
+            </ul>
 
-            <div id="angular" data-ng-app="destress" data-ng-controller="destressController">
-                <p>Name: <input type="text" data-ng-model="name"></input></p>
-                <p>{{name}}</p>
-            </div>
-
-            <div class="icon-wrapper" id="right-icon-wrapper">
-                <i class="fa fa-chevron-right"></i>
+            <div id="flexbox-wrapper">
+                <div class="icon-wrapper">
+                    <i class="fa fa-chevron-left"></i>
+                </div>
+    
+                <div id="angular" data-ng-app="destress" data-ng-controller="destressController">
+                    <p>Name: <input type="text" data-ng-model="name"></input></p>
+                    <p>{{name}}</p>
+                </div>
+    
+                <div class="icon-wrapper" id="right-icon-wrapper">
+                    <i class="fa fa-chevron-right"></i>
+                </div>
             </div>
         </div>
     </body>
