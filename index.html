@@ -13,13 +13,15 @@
     </head>
 
     <body>
-        <ul>
-            <li><a>Destress Sounds</a></li>
-        </ul>
-
-        <div data-ng-app="destress" data-ng-init="name='Mason'" data-ng-controller="destressController">
-            <p>Name: <input type="text" data-ng-model="name"></input></p>
-            <p>{{name}}</p>
+        <div id="wrapper">
+            <ul>
+                <li><a>Destress Sounds</a></li>
+            </ul>
+    
+            <div data-ng-app="destress" data-ng-init="name='Mason'" data-ng-controller="destressController">
+                <p>Name: <input type="text" data-ng-model="name"></input></p>
+                <p>{{name}}</p>
+            </div>
         </div>
     </body>
 </html>

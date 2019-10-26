@@ -1,4 +1,18 @@
-body {
-    background: aquamarine;
-    /*background-image: url("../images/Screen Shot 2019-10-24 at 5.31.43 PM.png");*/
+#wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+#wrapper:after {
+    content: ' ';
+    display: block;
+    background-image: url("../images/rain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.5;
+    background-position: 50% 0;
 }
