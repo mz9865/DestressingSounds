@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul {
@@ -8,6 +9,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #2D2E38;
+    font-size: 36px;
 }
 
 li {
