@@ -1,5 +1,6 @@
 #wrapper {
     position: relative;
+    display: flex;
 }
 
 #wrapper:after {
@@ -19,4 +20,20 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+}
+
+#angular {
+    flex: 10;
+}
+
+.icon-wrapper {
+    flex: 1;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+}
+
+#right-icon-wrapper {
+    direction: rtl;
 }
