@@ -5,8 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Destressing Sounds</title>
-        <link rel="stylesheet" href="assets/css/nav-bar.css">
-        <link rel="stylesheet" href="assets/css/background.css">
+        <link rel="stylesheet" href="assets/css/header.css">
         <link rel="stylesheet" href="assets/css/content.css">
         <link rel="stylesheet" href="assets/css/button.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" >
@@ -21,26 +20,26 @@
     </head>
 
     <body>
-        <div id="wrapper">
-            <ul>
-                <li>Destress Sounds</li>
-            </ul>
-
-            <div id="flexbox-wrapper">
-                <div onclick="onClick()" class="icon-wrapper">
-                    <i class="fa fa-chevron-left"></i>
+        <div id="grid-container">
+            <header>
+                <div id="header-title">
+                    <span id="title">Destress Sounds</span>
                 </div>
-    
-                <!-- <div id="angular" data-ng-app="destress" data-ng-controller="destressController">
-                    <p>Name: <input type="text" data-ng-model="name"></input></p>
-                    <p>{{name}}</p>
-                </div> -->
+            </header>
 
-                <h1>Sound Title</h1>
-    
-                <div onclick="onClick()" class="icon-wrapper" id="right-icon-wrapper">
-                    <i class="fa fa-chevron-right"></i>
-                </div>
+            <div onclick="onClick()" class="icon-wrapper" id="left-icon-wrapper">
+                <i class="fa fa-chevron-left"></i>
+            </div>
+
+            <!-- <div id="angular" data-ng-app="destress" data-ng-controller="destressController">
+                <p>Name: <input type="text" data-ng-model="name"></input></p>
+                <p>{{name}}</p>
+            </div> -->
+
+            <h1>Sound Title</h1>
+
+            <div onclick="onClick()" class="icon-wrapper" id="right-icon-wrapper">
+                <i class="fa fa-chevron-right"></i>
             </div>
         </div>
     </body>

@@ -1,0 +1,21 @@
+header {
+    position: relative;
+    background-color: #2D2E38;
+    font-size: 48pt;
+    padding: 36px 36px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
+
+#header-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    color: white;
+}
