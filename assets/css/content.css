@@ -1,10 +1,14 @@
-#wrapper {
-    position: relative;
-    display: grid;
-    
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-#wrapper:before {
+#grid-container {
+    position: relative;
+    display: grid;
+}
+
+#grid-container:before {
     content: ' ';
     display: block;
     position: absolute;
