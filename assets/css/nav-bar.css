@@ -1,8 +1,3 @@
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -12,9 +7,7 @@ ul {
     font-size: 36px;
     z-index: -1;
     display: block;
-    flex: 100;
     height: 5vh;
-    flex: 1;
 }
 
 li {

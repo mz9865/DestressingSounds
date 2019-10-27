@@ -1,7 +1,7 @@
 #wrapper {
     position: relative;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    
 }
 
 #wrapper:before {
