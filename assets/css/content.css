@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
 #flexbox-wrapper {
     display: flex;
     flex: 5;
