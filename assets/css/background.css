@@ -1,6 +1,7 @@
 #wrapper {
     position: relative;
-    display: grid;
+    display: flex;
+    flex-direction: column;
 }
 
 #wrapper:before {
@@ -20,24 +21,4 @@
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
-}
-
-#flexbox-wrapper {
-    display: flex;
-}
-
-#angular {
-    flex: 10;
-}
-
-.icon-wrapper {
-    flex: 1;
-    font-size: 48px;
-    text-align: center;
-    position: relative;
-    top: 50vh;
-}
-
-#right-icon-wrapper {
-    direction: rtl;
 }
